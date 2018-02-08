@@ -291,9 +291,6 @@ jQuery(function ($) {
     // -------------------------------------------------------------
     // Contact Form
     // -------------------------------------------------------------
-function sendMail(){
-    window.location.href = "mailto:cpink.js@gmail.com?subject=subject&body=message";
-}
     
     /*$('#contactForm').on('submit',function(e){
 
