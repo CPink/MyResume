@@ -650,7 +650,7 @@
           <div class="col-md-6">
             <div class="contact-form">
               <strong>Send me a message</strong>
-              <form id="contactForm" action="mailto:cpink.js@gmail.com" method="GET" enctype="text/plain">
+              <form id="contactForm" action="mailto:cpink.js@gmail.com" method="GET">
 
                 <div class="form-group">
                   <label for="name">Name</label>
@@ -659,12 +659,12 @@
 
                 <div class="form-group">
                   <label for="email">Email</label>
-                  <input type="email" name="email" class="form-control" value="Email" id="email" required="">
+                  <input type="email" name="email" class="form-control" id="email" required="">
                 </div>
 
                 <div class="form-group">
                   <label for="subject">Subject</label>
-                  <input type="text" name="subject" class="form-control" value="Subject" id="subject">
+                  <input type="text" name="subject" class="form-control" id="subject">
                 </div>
 
                 <div class="form-group">
@@ -672,7 +672,7 @@
                   <textarea name="message" class="form-control" value="Message" id="message" rows="5" required=""></textarea>
                 </div>
 
-                <button type="button" name="submit" class="btn btn-primary" onclick="location.href='mailto:cpink.js@gmail.com?subject=Subject&body=Message'">Send Message</button>
+                <button type="button" name="submit" class="btn btn-primary" onclick="location.href='mailto:cpink.js@gmail.com?subject=subject&body=message'">Send Message</button>
               </form>
             </div><!-- /.contact-form -->
           </div><!-- /.col-md-6 -->
