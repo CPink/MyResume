@@ -292,7 +292,8 @@ jQuery(function ($) {
     // Contact Form
     // -------------------------------------------------------------
 
-    $('#contactForm').on('submit',function(e){
+    window.location.href = "mailto:cpink.js@gmail.com?subject=subject&body=message%20goes%20here";
+    /*$('#contactForm').on('submit',function(e){
 
         e.preventDefault();
 
@@ -318,6 +319,7 @@ jQuery(function ($) {
         }, "json");
 
     });
+*/
 
 
 
